@@ -37,6 +37,7 @@ nav {
   font-size: 1.8em;
   letter-spacing: .1em;
   text-decoration: none;
+  font-weight: 400;
 }
 
 nav ul {
@@ -89,44 +90,54 @@ main {
   display: inherit;
   flex: 1 0 50%;
 }
+
 .left {
   flex-direction: column;
   padding: 140px 0 0 80px;
 }
+
 .left h1,
 .left div {
   font-family: 'Montserrat', sans-serif;
 }
+
 .left h1 {
   font-size: 3.2em;
+  font-weight: 400;
   color: rgb(17, 17, 17);
   padding-left: 23px;
 }
+
 .left p {
   font: 1.1em/2em 'Open Sans', sans-serif;
   color: rgb(136,136,136);
   margin: 30px 0 50px 30px;
   text-align: justify;
 }
+
 .left div {
   display: inherit;
   text-transform: uppercase;
   color: rgb(17, 17, 17);
 }
+
 .left hr {
   width: 30px;
   border: 2px solid rgb(17, 17, 17);
 }
+
 .exploring {
   height: 210px;
   margin-left: 30px;
 }
+
 .exploring hr {
   position: relative;
   top: -98px;
   right: -15px;
   margin: auto 20px auto 0;
 }
+
 .scroll {
   transform: rotate(270deg);
   width: 120px;
@@ -135,6 +146,7 @@ main {
   right: 90px;
   font-size: .8em;
 }
+
 .scroll hr {
   margin: auto 20px auto 0;
 }
@@ -145,12 +157,14 @@ main {
   background-color: rgba(255,116,110,0.25);
   clip-path: circle(63% at 70% 71%);
 }
+
 .second-shadow {
   width: 100%;
   height: 100%;
   background-color: rgba(255,116,110,0.65);
   clip-path: circle(58% at 70% 71%);
 }
+
 .first-shadow {
   width: 100%;
   height: 100%;
